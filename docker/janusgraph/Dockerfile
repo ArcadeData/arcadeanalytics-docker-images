@@ -1,6 +1,6 @@
 FROM openjdk:latest
 
-ENV JG_VERSION 0.3.1
+ENV JG_VERSION 0.3.2
 
 
 RUN curl -fsSLO https://github.com/JanusGraph/janusgraph/releases/download/v${JG_VERSION}/janusgraph-${JG_VERSION}-hadoop2.zip && \
