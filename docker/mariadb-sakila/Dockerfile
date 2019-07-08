@@ -1,4 +1,4 @@
-FROM mariadb:10.4
+FROM mariadb:10
 
 COPY resources/1-sakila-schema.sql /docker-entrypoint-initdb.d/
 COPY resources/2-sakila-data.sql /docker-entrypoint-initdb.d/
