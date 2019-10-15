@@ -8,7 +8,7 @@ before_install:
 
 notifications:
   email:
-    - r.franchini@arcadeanalytics.com
+    - arcade@arcadeanalytics.com
 
 script:
   - ./build.sh
