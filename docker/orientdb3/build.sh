@@ -2,7 +2,7 @@
 
 mkdir ./demodb
 
-wget -O ./demodb.zip  https://orientdb.com/public-databases/demodb.zip
+wget -O ./demodb.zip  https://orientdb.com/public-databases/3.0.x/demodb.zip
 
 unzip -d ./demodb/ ./demodb.zip
 
