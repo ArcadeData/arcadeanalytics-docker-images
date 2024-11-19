@@ -2,7 +2,7 @@
 # Dockerfile to run an OrientDB (Graph) Container
 ############################################################
 
-FROM orientdb:3.2.16-tp3
+FROM orientdb:3.2.35-tp3
 
 #overwrite gremlin server config
 ADD resources/orientdb-server-config.xml /orientdb/config/
