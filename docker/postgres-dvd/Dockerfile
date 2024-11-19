@@ -1,4 +1,4 @@
-FROM postgres:15
+FROM postgres:17
 
 COPY resources/dvdrental.tar /tmp/dvdrental.tar
 COPY resources/1-init.sql /docker-entrypoint-initdb.d/
